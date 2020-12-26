@@ -39,7 +39,7 @@ class NavDrawer extends StatelessWidget {
                     currentAccountPicture: GestureDetector(
                       onTap: () => showDialog(
                         context: context,
-                        child: AlertDialog(
+                        builder: (_) => new AlertDialog(
                           title: Text('Himdeve Fashion'),
                           content: Text(
                               'To be a designer is a kind of art work. However, to proceed further, to develop a brand and to find a marketplace for the ideas, it is sometimes a struggle. But with a firm determination, love and passion, finally, at the end, a little wish may come true… And that wish is called the Himdeve. The brand designed to be successful.'),

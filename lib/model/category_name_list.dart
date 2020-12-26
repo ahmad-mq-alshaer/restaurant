@@ -1,3 +1,4 @@
+// ignore: camel_case_types
 class list {
   final String sandwichName;
   final String price;
